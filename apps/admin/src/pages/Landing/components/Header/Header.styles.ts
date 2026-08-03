@@ -19,7 +19,7 @@ const Header = styled.header<{ hideBorder?: boolean }>`
   }
 
   ${mq_desktop} {
-    padding: 0 80px;
+    padding: 0 60px;
   }
 `;
 
@@ -41,16 +41,12 @@ const HeaderContaienr = styled.div`
 `;
 
 const BooltiIcon = styled.button`
-  width: 55.5px;
-  height: 21px;
+  width: 74px;
+  height: 28px;
   cursor: pointer;
   display: flex;
   align-items: center;
 
-  ${mq_lg} {
-    width: 74px;
-    height: 28px;
-  }
   & > svg {
     width: 100%;
     height: 100%;
